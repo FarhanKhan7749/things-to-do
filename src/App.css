@@ -1,0 +1,32 @@
+body{
+  background-color: #c0c3e4;
+  display: block;
+}
+.section {
+  background-color: #f2f2f2;
+  max-width: 700px;
+  text-align: center;
+  justify-content: center;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+.section1 {
+  background-color: #f2f2f2;
+  max-width: 700px;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+h1{
+  text-align: center;
+  margin: 75px auto;
+  font-size: 3rem;
+  color: #646681
+}
+
+@media only screen and (max-width: 600px) {
+  .section {
+    max-width: 100%;
+  }
+}
